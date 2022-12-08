@@ -10,7 +10,7 @@ export default function Requests({index, item}){
         //that 'Movie Name' as substring. Then results looks same.
         //To remove that i used an array of random movie names to pull data.
 
-        const baseUrl = 'http://www.omdbapi.com/?apikey=65a45f03&s=';
+        const baseUrl = 'https://www.omdbapi.com/?apikey=65a45f03&s=';
         let random = Math.floor(Math.random() * (5020 - 1)) + 1;
         let rest = MovieData[random].split(/(?=[A-Z])/);
         let restUrl = rest.join("%20"); 
