@@ -1,0 +1,7 @@
+{
+  "name": "movie-listing-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
