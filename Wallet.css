@@ -1,0 +1,31 @@
+.wallet {
+  padding: 1.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.addMoney {
+}
+
+.balance {
+}
+
+.balanceButtons {
+}
+
+.totalBalance ion-card-title {
+  font-size: 3.5rem;
+}
+
+.totalBalance ion-card-subtitle {
+  font-size: 2rem;
+}
+
+.addWithdraw-Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*border-left: 1px solid rebeccapurple;*/
+}
+
+.transactionsDetails {
+  display: flex;
+}
